@@ -1,0 +1,73 @@
+@media screen and (min-width: 428px) {
+    .container {
+        max-width: 426px;
+    }
+   
+}
+    
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 766px;
+    }
+
+    .advantages-list-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .advantages-list {
+        gap: 72px 24px;
+    }
+
+.advantages-list-title {
+text-align: left;
+}
+
+.team-list {
+    gap: 64px 24px;
+}
+
+.team-list-item {
+    width: calc((100% - 24px) / 2);
+}
+}   
+
+@media screen and (min-width: 1128px) {
+    .container {
+        max-width: 1158px;
+        padding-left: 16px;
+  padding-right: 16px;
+}
+.advantages-list {
+        gap: 24px;
+    }
+.advantages-list-item {
+width: calc((100% - 3 * 24px) / 4);
+}
+
+.advantages-iconbox {
+  display: flex;
+  height: 112px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  background-color: var(--btn-background-color);
+  border-radius: 4px;
+}
+.advantages-list-title {
+font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--backgr-color);
+}
+.advantages-list-text {
+font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+  }
+  .dev{
+    display: block;
+  }
+}
