@@ -18,6 +18,9 @@
     .modal {
         min-width: 392px;
     }
+    .header {
+        padding: 24px 0;
+    }
 }
 
 
@@ -26,9 +29,6 @@
         max-width: 768px;
     }
 
-    .header {
-        padding: 16px;
-    }
 
     .header-content {
         align-items: center;
@@ -63,6 +63,7 @@
         letter-spacing: 0.02em;
         color: var(--heading-color);
         transition: color var(--standart-transition);
+        padding: 24px 0;
     }
 
     .page-nav .nav-link:hover {
@@ -110,7 +111,7 @@
     .current::after {
         position: absolute;
         left: 0;
-        bottom: -21px;
+        bottom: -1px;
         content: "";
         width: 100%;
         height: 4px;
